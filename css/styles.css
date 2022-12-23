@@ -10,9 +10,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #2196f3;
-}
 .contacto {
   font: weight 500px;
   color: #757575;
@@ -22,8 +19,15 @@ a:hover {
   font-weight: 500;
   color: #212121;
 }
+a:visited {
+  color: currentColor;
+}
 
-.Logo {
+a:hover {
+  color: #2196f3;
+}
+
+header .Logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -31,6 +35,13 @@ a:hover {
   color: #2196f3;
 }
 
+footer .Logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: #2196f3;
+}
 h1 {
   font-weight: 900;
   font-size: 44px;
@@ -81,6 +92,7 @@ address {
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
+  color: #ffffff;
 }
 .productos {
   font-weight: 700;
