@@ -1,16 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 
+:root {
+  --brandcolor: #2196f3;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
 
-a {
-  text-decoration: none;
-}
-
-.contacto {
+.contact li {
   font: weight 500px;
   color: #757575;
 }
@@ -19,40 +18,43 @@ a {
   font-weight: 500;
   color: #212121;
 }
+
+a:link {
+  text-decoration: none;
+  color: currentcolor;
+}
+
 a:visited {
   color: currentColor;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #2196f3;
+  color: var(--brandcolor);
+  text-decoration: none;
 }
 
-header .Logo {
+footer .logo,
+header .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--brandcolor);
 }
 
-footer .Logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  text-decoration: none;
-  color: #2196f3;
-}
 h1 {
   font-weight: 900;
   font-size: 44px;
   color: #ffffff;
 }
+
 h2 {
   font-weight: 700;
   font-size: 36px;
 }
 
-.servicios {
+.services h3 {
   font-weight: 700;
   font-size: 14px;
 }
@@ -62,52 +64,54 @@ h2 {
   font-size: 16px;
 }
 
-.especialidad {
-  font-size: 16px;
-  color: #757575;
-}
-
 button {
   background-color: #f5f4fa;
   color: #212121;
   border: none;
   font-size: 16px;
+  cursor: pointer;
 }
 button:hover {
-  background-color: #2196f3;
+  background-color: var(--brandcolor);
   color: #ffffff;
 }
-.botonespecial {
-  background-color: #2196f3;
+.servicebutton {
+  background-color: var(--brandcolor);
   color: #ffffff;
+  cursor: pointer;
 }
 
-.botonespecial:hover {
+.servicebutton:hover {
   background-color: #f5f4fa;
   color: #212121;
 }
 
 address {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+  text-decoration: none;
   font-style: normal;
   color: #ffffff;
 }
-.productos {
+
+ul .products p {
+  font-size: 16px;
+  color: #757575;
+}
+ul .products h3 {
   font-weight: 700;
   font-size: 18px;
 }
 
-.margen1 {
+.products li {
+  cursor: pointer;
+}
+
+.margin1 {
   background-color: #2f303a;
 }
-.margen2 {
+.margin2 {
   background-color: #f5f4fa;
 }
-.margen3 {
-  background-color: #2f303a;
-}
+
 ul {
   list-style-type: none;
 }
