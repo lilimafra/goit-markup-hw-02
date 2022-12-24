@@ -2,6 +2,7 @@
 
 :root {
   --brandcolor: #2196f3;
+  --basecolor: #212121;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -14,9 +15,9 @@ body {
   color: #757575;
 }
 
-.Navegador {
+.surf {
   font-weight: 500;
-  color: #212121;
+  color: var(--basecolor);
 }
 
 a:link {
@@ -27,6 +28,7 @@ a:link {
 a:visited {
   color: currentColor;
   text-decoration: none;
+  line-height: 1.7;
 }
 
 a:hover {
@@ -53,37 +55,42 @@ h2 {
   font-weight: 700;
   font-size: 36px;
 }
+.partner {
+  font-weight: 500;
+  font-size: 16px;
+}
 
 .services h3 {
   font-weight: 700;
   font-size: 14px;
 }
 
-.equipo {
-  font-weight: 500;
+.buttonpro {
+  background-color: #f5f4fa;
+  color: var(--basecolor);
   font-size: 16px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 2px;
+  border-radius: 4px;
 }
 
-button {
-  background-color: #f5f4fa;
-  color: #212121;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-}
-button:hover {
+.buttonpro:hover {
   background-color: var(--brandcolor);
   color: #ffffff;
 }
 .servicebutton {
   background-color: var(--brandcolor);
   color: #ffffff;
+  padding: 10px;
   cursor: pointer;
+  border: none;
 }
 
 .servicebutton:hover {
   background-color: #f5f4fa;
-  color: #212121;
+  color: var(--basecolor);
 }
 
 address {
@@ -92,19 +99,23 @@ address {
   color: #ffffff;
 }
 
-ul .products p {
-  font-size: 16px;
-  color: #757575;
-}
-ul .products h3 {
+.products {
   font-weight: 700;
   font-size: 18px;
+  color: var(--basecolor);
+  line-height: 2;
 }
 
-.products li {
+.projects li {
   cursor: pointer;
 }
 
+.job {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  line-height: 1.8;
+}
 .margin1 {
   background-color: #2f303a;
 }
@@ -114,4 +125,23 @@ ul .products h3 {
 
 ul {
   list-style-type: none;
+}
+
+header .active {
+  color: var(--brandcolor);
+}
+
+footer .mt {
+  color: #afb1b8;
+  line: height 1.7;
+  font-size: 14px;
+  font-weight: 400;
+}
+.mt:hover {
+  color: var(--brandcolor);
+  text-decoration: none;
+}
+
+.text {
+  line-height: 1.7;
 }
