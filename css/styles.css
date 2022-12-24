@@ -11,7 +11,7 @@ body {
 }
 
 .contact li {
-  font: weight 500px;
+  font-weight: 500px;
   color: #757575;
 }
 
@@ -75,11 +75,26 @@ h2 {
   cursor: pointer;
   margin: 2px;
   border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
 }
 
 .buttonpro:hover {
   background-color: var(--brandcolor);
   color: #ffffff;
+}
+
+.activebutton {
+  background-color: var(--brandcolor);
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 2px;
+  border-radius: 4px;
+  font-family: "roboto", sans-serif;
+  line-height: 1.6;
 }
 
 .servicebutton {
@@ -90,6 +105,8 @@ h2 {
   border: none;
   font-size: 16px;
   font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
 }
 
 .servicebutton:hover {
