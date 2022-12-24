@@ -55,6 +55,7 @@ h2 {
   font-weight: 700;
   font-size: 36px;
 }
+
 .partner {
   font-weight: 500;
   font-size: 16px;
@@ -80,12 +81,15 @@ h2 {
   background-color: var(--brandcolor);
   color: #ffffff;
 }
+
 .servicebutton {
   background-color: var(--brandcolor);
   color: #ffffff;
   padding: 10px;
   cursor: pointer;
   border: none;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .servicebutton:hover {
@@ -116,9 +120,11 @@ address {
   color: #757575;
   line-height: 1.8;
 }
+
 .margin1 {
   background-color: #2f303a;
 }
+
 .margin2 {
   background-color: #f5f4fa;
 }
@@ -133,10 +139,11 @@ header .active {
 
 footer .mt {
   color: #afb1b8;
-  line: height 1.7;
+  line-height: 1.7;
   font-size: 14px;
   font-weight: 400;
 }
+
 .mt:hover {
   color: var(--brandcolor);
   text-decoration: none;
