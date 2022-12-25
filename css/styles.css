@@ -11,7 +11,7 @@ body {
 }
 
 .contact li {
-  font-weight: 500px;
+  font-weight: 500;
   color: #757575;
 }
 
@@ -87,14 +87,6 @@ h2 {
 .activebutton {
   background-color: var(--brandcolor);
   color: #ffffff;
-  border: none;
-  font-size: 16px;
-  padding: 5px;
-  cursor: pointer;
-  margin: 2px;
-  border-radius: 4px;
-  font-family: "roboto", sans-serif;
-  line-height: 1.6;
 }
 
 .servicebutton {
